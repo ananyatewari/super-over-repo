@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+
+#india-scoreboard{
+    border: 2px solid black;
+    background-color:skyblue;
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#pakistan-scoreboard{
+    background-color: darkgreen;
+    border: 2px solid black;
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.ball{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#bat, #reset{
+    height:50px;
+    width:50px;
+}
